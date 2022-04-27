@@ -1,0 +1,17 @@
+const five = 5, const ten = 10;
+var sum, product, mean;
+
+sum := five + ten
+product := five * ten
+mean := (five + ten) / 2
+
+{ procedure isCool; }
+
+var isCool;
+
+if sum > 99 then
+	isCool := 1
+if sum < 100 then
+	isCool := 0
+
+.
